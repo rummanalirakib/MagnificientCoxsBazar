@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coxbazar2">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:id="@+id/souvenir_shop"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:text="Souvenir Shops"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#9b14a6"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:id="@+id/shop11"
+            android:layout_below="@id/souvenir_shop"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shop1"
+
+            />
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:id="@+id/shop22"
+            android:layout_below="@id/shop11"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shop2"
+
+            />
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:id="@+id/shop33"
+            android:layout_below="@id/shop22"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shop3"
+
+            />
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:id="@+id/shop44"
+            android:layout_below="@id/shop33"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shop4"
+
+            />
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:id="@+id/shop55"
+            android:layout_below="@id/shop44"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shop5"
+
+            />
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:id="@+id/shop66"
+            android:layout_below="@id/shop55"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shop6"
+
+            />
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:id="@+id/shop77"
+            android:layout_below="@id/shop66"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shop7"
+            android:layout_marginBottom="25dp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

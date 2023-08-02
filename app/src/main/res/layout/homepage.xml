@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coxbazar">
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="90dp"
+        android:text="  Welcome to Cox's Bazaar"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#011414"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/enjoyyourtrip"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:background="@android:drawable/toast_frame"
+        android:layout_below="@+id/Welcome"
+        android:layout_centerInParent="true"
+        android:text="Enjoy Your Trip"
+        android:textColor="#f5f5f5"
+        android:layout_marginTop="120dp"/>
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:id="@+id/aboutus"
+        android:layout_below="@+id/enjoyyourtrip"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:background="@android:drawable/toast_frame"
+        android:layout_centerInParent="true"
+        android:text="About us"
+        android:textColor="#f5f5f5"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

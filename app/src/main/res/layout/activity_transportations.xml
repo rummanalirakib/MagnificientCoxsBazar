@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coxbazar3">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="45dp"
+            android:id="@+id/heading"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:text="Transportations"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#9b14a6"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="550dp"
+            android:id="@+id/introduction"
+            android:layout_below="@id/heading"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#fd000000"
+            />
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:id="@+id/byair"
+            android:layout_below="@id/introduction"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="By Air"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#fdfa0810"
+            />
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="280dp"
+            android:id="@+id/byairtext"
+            android:layout_below="@id/byair"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#fd000000"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="280dp"
+            android:id="@+id/airplane"
+            android:layout_below="@id/byairtext"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/plane"
+            />
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:id="@+id/bybus"
+            android:layout_below="@id/airplane"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="By Bus"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#fdfa0810"
+            />
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="1000dp"
+            android:id="@+id/bybustext"
+            android:layout_below="@id/bybus"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#fd000000"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="280dp"
+            android:id="@+id/bus"
+            android:layout_below="@id/bybustext"
+            android:layout_marginTop="2dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bus1"
+            android:layout_marginBottom="30dp"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

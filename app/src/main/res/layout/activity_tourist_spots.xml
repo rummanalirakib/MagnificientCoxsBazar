@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coxbazar2">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:id="@+id/heading"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        android:text="Tourist Spots"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#9b14a6"
+        android:layout_marginTop="20dp"
+       />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:id="@+id/kalatoliandlaboni"
+        android:layout_below="@id/heading"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Kalatoli and Laboni Beach"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#e10611"
+        />
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:id="@+id/laboniimage"
+        android:layout_below="@id/kalatoliandlaboni"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/laboni"
+
+        />
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:id="@+id/kalatoliimage"
+        android:layout_below="@id/laboniimage"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/kalatoli"
+
+        />
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/inanibeach"
+        android:layout_below="@id/kalatoliimage"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Inani Beach"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#e10611"
+        />
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:id="@+id/inaniimage"
+        android:layout_below="@id/inanibeach"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/inani"
+
+        />
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/moheshkhali"
+        android:layout_below="@id/inaniimage"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Moheskhali"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#e10611"
+        />
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:id="@+id/moheshkhaliimage"
+        android:layout_below="@id/moheshkhali"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/moheshkhali"
+
+        />
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/saintmartin"
+        android:layout_below="@id/moheshkhaliimage"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Saint Martin Island"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#e10611"
+        />
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:id="@+id/saintmartinimage"
+        android:layout_below="@id/saintmartin"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/saintmartin"
+
+        />
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/sonadiaisland"
+        android:layout_below="@id/saintmartinimage"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Sonadia Island"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#e10611"
+        />
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:id="@+id/sonadiaimage"
+        android:layout_below="@id/sonadiaisland"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/sonadia"
+
+        />
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/teknaf"
+        android:layout_below="@id/sonadiaimage"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="Teknaf"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#e10611"
+        />
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:id="@+id/teknafaimage"
+        android:layout_below="@id/teknaf"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/teknaf"
+        android:layout_marginBottom="25dp"
+        />
+
+    </RelativeLayout>
+
+</ScrollView>

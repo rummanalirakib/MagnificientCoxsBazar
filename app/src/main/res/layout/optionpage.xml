@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coxbazar1">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/chooseoption"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="Choose Options"
+        android:layout_marginTop="20dp"
+        android:textColor="#7d1aa7"
+        android:textSize="40dp"
+        android:background="@android:drawable/button_onoff_indicator_off"/>
+
+
+    <Button
+        android:id="@+id/touristspots"
+        android:layout_below="@id/chooseoption"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:text="Tourist Spots"
+        android:textSize="25dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/toast_frame"
+
+        />
+    <Button
+        android:id="@+id/transportations"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/touristspots"
+        android:layout_marginTop="20dp"
+        android:text="Transportations"
+        android:textSize="25dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/toast_frame"
+        />
+    <Button
+        android:id="@+id/hotels"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/transportations"
+        android:layout_marginTop="20dp"
+        android:text="Hotels"
+        android:textSize="25dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/toast_frame"
+        />
+    <Button
+        android:id="@+id/restaurants"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/hotels"
+        android:layout_marginTop="20dp"
+        android:text="Restaurants"
+        android:textSize="25dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/toast_frame"
+        />
+    <Button
+        android:id="@+id/souvenirshops"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/restaurants"
+        android:layout_marginTop="20dp"
+        android:text="Souvenir Shops"
+        android:textSize="25dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/toast_frame"
+        />
+    <Button
+        android:id="@+id/maps"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/souvenirshops"
+        android:layout_marginTop="20dp"
+        android:text="Maps"
+        android:textSize="25dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/toast_frame"
+        />
+    <Button
+        android:id="@+id/history"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/maps"
+        android:layout_marginTop="20dp"
+        android:text="History"
+        android:textSize="25dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/toast_frame"
+        />
+
+</RelativeLayout>
+</ScrollView>

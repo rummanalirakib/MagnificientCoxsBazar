@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coxbazar4">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:id="@+id/headingh"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:text="History"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#9b14a6"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="470dp"
+            android:id="@+id/introductionh"
+            android:layout_below="@id/headingh"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+
+
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#fd000000"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="350dp"
+            android:id="@+id/collage1"
+            android:layout_below="@id/introductionh"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/collage"
+            />
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="640dp"
+            android:id="@+id/introtext"
+            android:layout_below="@id/collage1"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+
+
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#fd000000"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:id="@+id/coxmap"
+            android:layout_below="@id/introtext"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/coxmap"
+            android:layout_marginBottom="20dp"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>
